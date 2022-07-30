@@ -2,9 +2,9 @@
   "kind": "Workflow",
   "id": "d96acc487b12bdb29db40cbea63e9dcd",
   "isDeleted": false,
-  "rev": "15-1ad58e66e03bb6bc2d3972217fbae8e6",
+  "rev": "30-f7e1b230051808fb9c52f0bf60b635c3",
   "description": "Calculates the ratios of analyte concentrations between antibody-treated samples and a selected control. The analysis includes: calculation of the median concentration across replicates, min-max scaling of the concentrations across major sample groups, and finally calculation of the ratios.",
-  "name": "multiplex immunoassay template workflow",
+  "name": "Multiplex immunoassay template workflow",
   "createdBy": "makostadima",
   "acl": {
     "kind": "Acl",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-07-30T07:19:09.870434Z"
+    "value": "2022-07-30T08:13:16.006010Z"
   },
   "urls": [],
   "tags": [],
@@ -258,7 +258,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "e818a62e-c79c-4555-b295-6b90ca72f71e",
+          "id": "62b81eda-2489-496f-9b94-90099546aa41",
           "relations": []
         }
       }
@@ -301,7 +301,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "1590471b-395c-41bd-970c-b943960e640f",
+          "id": "c5d6fdd1-75ac-485c-91e4-e93652e8dd7e",
           "relations": []
         }
       }
@@ -363,7 +363,7 @@
           },
           {
             "kind": "Factor",
-            "name": "plate.ID",
+            "name": "plate ID",
             "type": "string"
           },
           {
@@ -498,7 +498,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "2ff138fd-1127-44dc-aa10-791b99f78767",
+          "id": "e1922a72-af24-4cc3-a450-24cb9cc77a16",
           "relations": []
         }
       }
@@ -549,67 +549,67 @@
         "factors": [
           {
             "kind": "Factor",
-            "name": "IL.1β",
+            "name": "IL-1β",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IFN.α2",
+            "name": "IFN-α2",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IFN.γ",
+            "name": "IFN-γ",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "TNF.α",
+            "name": "TNF-α",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "MCP.1",
+            "name": "MCP-1",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IL.6",
+            "name": "IL-6",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IL.8",
+            "name": "IL-8",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IL.10",
+            "name": "IL-10",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IL.12p70",
+            "name": "IL-12p70",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IL.17A",
+            "name": "IL-17A",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IL.18",
+            "name": "IL-18",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IL.23",
+            "name": "IL-23",
             "type": "double"
           },
           {
             "kind": "Factor",
-            "name": "IL.33",
+            "name": "IL-33",
             "type": "double"
           }
         ],
@@ -858,7 +858,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "6f2227a6-3086-40b6-a5ea-283d9f9ac2bc"
+        "id": "57accc84-cc80-491b-b48d-061e095d61e1"
       }
     },
     {
@@ -1111,7 +1111,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "99d60067-737e-4ec6-9dfc-4c3ff16a2c04"
+        "id": "647c6eb4-aca1-4b06-8c7a-c390022caa59"
       }
     },
     {
@@ -1768,7 +1768,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "9c84b23a-4e42-4baf-b5dc-9ea1e568d983"
+        "id": "878519ce-045d-441d-87a7-bd26d6715ab2"
       }
     },
     {
@@ -2042,7 +2042,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "945f10c2-d5b1-4bbc-93dd-ea91190cff68"
+        "id": "2879c76e-a880-47b2-92d9-f8dd31d7a225"
       }
     },
     {
@@ -2666,7 +2666,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "821c53d8-3bf6-42f9-b844-8fab0726ae04"
+        "id": "0c8d21a3-9c47-4ca3-ba98-351608564f87"
       }
     },
     {
@@ -3045,7 +3045,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "f3fc362b-bf07-40f0-baed-e47b2ee8db75"
+        "id": "7bf82029-4ac5-4c5d-bb13-1409871a0db5"
       }
     },
     {
@@ -3355,7 +3355,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "5fe3db9f-0290-41ee-9792-3a24576ff431"
+        "id": "f1a2a872-207c-4ced-a91c-5e77f36893b8"
       }
     },
     {
@@ -3683,7 +3683,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "fc0d9fb1-8332-444b-ae63-06097bf9650b"
+        "id": "b7901bb8-22aa-42c6-acdf-e583a68b4103"
       }
     },
     {
@@ -3972,7 +3972,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "4498278b-f673-4d74-b093-ab2d8ca59ad1"
+        "id": "91b2a216-ea46-43fc-8a00-76f05a78815c"
       }
     },
     {
@@ -4251,7 +4251,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "b8d64f5a-6503-4280-af98-952ddc2c5759"
+        "id": "704b80fd-f42e-41c8-ad47-fbec1ad58b1a"
       }
     },
     {
@@ -4558,7 +4558,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "74bbe778-e173-44e1-93b5-cbe0a1ef845d"
+        "id": "877cbad4-ba99-4147-9ef7-cb32e2d3dbc4"
       }
     },
     {
