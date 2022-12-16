@@ -4,7 +4,7 @@
   "isDeleted": false,
   "rev": "70-0b7f39cd624f3e18ab2fcddc437a44e3",
   "description": "Calculates the ratios of analyte concentrations between antibody-treated samples and a selected control. The analysis includes: calculation of the median concentration across replicates, min-max scaling of the concentrations across major sample groups, and finally calculation of the ratios and plotting of the median ratios across donors.",
-  "name": "iTeos multiplex immunoassay template workflow",
+  "name": "Multiplex immunoassay template workflow",
   "createdBy": "myrto.kostadima",
   "acl": {
     "kind": "Acl",
